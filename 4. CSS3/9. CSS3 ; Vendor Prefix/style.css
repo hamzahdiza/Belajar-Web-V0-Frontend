@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+}
+
+img {
+	filter: grayscale(100%);
+}
+
+/* Udah gak butuh prefixes sekarang */

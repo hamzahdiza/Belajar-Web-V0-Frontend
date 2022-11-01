@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+}
+
+/* Filter
+
+blur(px)
+brightness(angka | %)
+constrast(angka | %)
+saturate(angka | %)
+grayscale(angka | %)
+sepia(angka | %)
+hue-rotate(deg)
+invert(angka | %)
+opacity(angka | %)
+drop-shadow(angka | %) */
+
+img {
+	filter: blur(10px) grayscale(100%);
+	transition: 1s;
+}
+
+img:hover {
+	filter: blur(0) grayscale(0);
+}

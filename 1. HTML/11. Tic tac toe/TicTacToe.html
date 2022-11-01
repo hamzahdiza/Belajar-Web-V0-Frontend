@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+
+<body>
+  <canvas id="myCanvas"></canvas>
+
+  <div class="light-blue-panel shapes">
+    <div class="shape" data-shape="circle">circle</div>
+    <div class="shape" data-shape="quad">quad</div>
+    <div class="shape" data-shape="triangle">triangle</div>
+    <div class="shape" data-shape="heart">heart</div>
+  </div>
+
+  <div class="light-blue-panel settings">
+    <div class="shape">
+      <input type="checkbox" id="gradient" />
+      <label for="gradient">Use Gradient</label>
+    </div>
+    <div class="shape">
+      <input type="text" id="strokeWidth" value="2" />
+      <label for="strokeWidth">Stroke Width</label>
+    </div>
+    <div class="shape">
+      <input type="color" id="strokeColor" value="#9D8CD7" />
+      <label for="strokeColor">Stroke Color</label>
+    </div>
+    <div class="shape">
+      <input type="color" id="fillColor" value="#C6BAEE" />
+      <label for="fillColor">Fill Color</label>
+    </div>
+  </div>
+
+  <div class="light-blue-panel clear">
+    <div class="shape">
+      <a id="stop">Stop The Chaos!</a>
+    </div>
+  </div>
+  <div class="light-blue-panel readme">
+    <div class="shape">
+      <h3>HOW TO USE:</h3>
+    </div>
+    <div class="shape">
+      Click on the shape link to select the shape
+    </div>
+    <div class="shape">
+      Move the mouse to the canvas to locate a shape
+    </div>
+    <div class="shape">
+      Press ESC to cancel drawing
+    </div>
+    <div class="shape">
+      Use mouse wheel to scale the shape
+    </div>
+    <div class="shape">
+      Turn the gradient fill on/off
+    </div>
+    <div class="shape">
+      Set the stroke (border) width
+    </div>
+    <div class="shape">
+      Change the stroke and fill color
+    </div>
+    <div class="shape">
+      Use the "Stop the Chaos!" button to remove them all
+    </div>
+  </div>
+  <!--  Scripts  -->
+  <script src="scripts/shapes.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

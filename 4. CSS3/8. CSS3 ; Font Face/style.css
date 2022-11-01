@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "baloo regular";
+	src: url('Baloo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	/* font-family: 'Indie Flower', cursive; */
+	font-family: "open_sansregular", arial;
+}

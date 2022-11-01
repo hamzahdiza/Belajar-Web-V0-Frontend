@@ -1,0 +1,22 @@
+.satu {
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background-image: linear-gradient(-90deg, red, #fffb00,
+		rgba(255,255,0), green);
+}
+
+.dua{
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background-image: linear-gradient(to bottom left, red, #fffb00,
+		rgba(255,255,0), green);
+}
+
+.tiga {
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background-image: linear-gradient(to right, red 63%, green 80%);
+}

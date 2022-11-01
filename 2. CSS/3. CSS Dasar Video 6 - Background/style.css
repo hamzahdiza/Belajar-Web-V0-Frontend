@@ -1,0 +1,11 @@
+body {
+	background-color: lightblue;
+	background-image: url(gambar/bg2.png);
+	//background-repeat: no-repeat;
+	//background-size: 100px;
+}
+
+
+h1{
+	background-image: url(gambar/bg1.png);
+}

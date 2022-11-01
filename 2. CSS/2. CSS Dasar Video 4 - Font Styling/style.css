@@ -1,0 +1,14 @@
+h1 {
+	font-family: arial, verdana, sans-serif;
+	font-size: 100px;
+	font-weight: normal;
+	font-variant: small-caps;
+	font-style: oblique;
+	color: red;
+	/*font : font-style font-variant font-weight font-size line-height font-family;*/
+}
+
+p {
+	font-family: arial, vernada, sans-serif;
+	line-height: 30px;
+}

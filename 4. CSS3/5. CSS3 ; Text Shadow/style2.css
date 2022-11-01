@@ -1,0 +1,80 @@
+body {
+	width: 840px;
+	margin:50px auto;
+	font-family: arial;
+	font-size: 6.5em;
+	font-weight: bold;
+	background: black;
+}
+
+div {
+	height: 210px;
+	margin-bottom: 100px;
+	line-height: 200px;
+	text-align: center;
+}
+
+.teks1 {
+	color: white;
+	text-shadow: 0px 0px 20px rgba(255, 248, 54, 1);
+}
+
+.teks2 {
+	background-color: #666;
+	color: 	#222;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 1)
+}
+
+.teks3 {
+	background-color: #ddeeff;
+	color: rgb(10, 60, 150, 0.8);	
+	text-shadow: 1px 4px 6px rgba(221, 238, 255, 1),
+				 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.teks4 {
+	background-color: white;
+	color: #262626;
+	text-shadow: 5px 5px 0px rgba(255, 255, 255, 1),
+		 		 10px 10px 0px rgba(176, 176, 176, 1);
+}
+
+.teks5 {
+	background-color: #85fffb;
+	color: white;
+	text-shadow: -10px 10px 0px rgba(77, 235, 229, 1),
+		 		 -20px 20px 0px rgba(61, 191, 186, 1),
+		 		 -30px 30px 0px rgba(37, 125, 122, 1);;
+}
+
+.teks6 {
+	background: #629552;
+	 color: rgba(0,0,0,0.6);
+	 text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.teks7 {
+	font-weight: normal;
+	color: white;
+	text-shadow: 0 0 10px #fff, 
+				 0 0 20px #fff, 
+				 0 0 30px #fff, 
+				 0 0 40px #ff00de, 
+				 0 0 70px #ff00de, 
+				 0 0 80px #ff00de, 
+				 0 0 100px #ff00de, 
+				 0 0 150px #ff00de;
+}
+
+
+.teks8 {
+		color: white;
+		text-shadow: 0 0 20px #fefcc9, 
+					 10px -10px 30px #feec85,
+					 -20px -20px 40px #ffae34, 
+					 20px -40px 50px #ec760c, 
+					 -20px -60px 60px #cd4606, 
+					 0 -80px 70px #973716, 
+					 10px -90px 80px #451b0e;
+}

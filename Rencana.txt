@@ -1,0 +1,12 @@
+CSS Dasar : 10 video
+CSS Layouting : 15 video
+CSS3 : 20 video
+Membuat Website dengan CSS Framework : 9 video
+Belajar FLEXBOX : 3 video
+CSS GRID : 8 video
+Tutorial SASS : 7 video
+Dasar Pemrograman dengan Javascript : 44
+Javascript dan DOM (Document Object Model) : 14
+JAVASCRIPT LANJUTAN : 27
+GIT & GITHUB : 14
+REST API : 9

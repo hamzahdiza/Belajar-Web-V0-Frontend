@@ -1,0 +1,24 @@
+div	{
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+}
+
+.satu {
+	background-image: radial-gradient(red, green, blue);
+}
+
+.dua {
+	background-image: radial-gradient(circle closest-side, 
+		 red, blue);
+}
+
+.tiga {
+	background-image: radial-gradient(circle farthest-corner, 
+		 red, blue);
+}
+
+.empat {
+	background-image: radial-gradient(circle farthest-side
+		at top left, red, blue);
+}

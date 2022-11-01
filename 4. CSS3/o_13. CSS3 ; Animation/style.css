@@ -1,0 +1,40 @@
+.kotak {
+	width: 200px;
+	height: 200px;
+	background-color: salmon;
+	animation: animasikotak 3s ease 2 alternate forwards running;
+
+	/* animation-name: animasikotak;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction:normal, reverse, alternate, 
+								alternate-reverse;
+	animation-fill-mode: forwards, backwards, both;
+	animation-play-state: running, paused; */
+} 
+
+/* animation
+
+[name] [duration] [timing-function]
+[delay] [iteration-count] [direction]
+[fill-mode] [play-state]
+ */
+
+@keyframes animasikotak {
+	0% {
+		width: 200px;
+
+	}
+
+	50% {
+		width: 500px;
+		height: 200px;
+	}
+
+	100% {
+		width: 500px;
+		height: 500px;
+
+	}
+}
